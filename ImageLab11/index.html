@@ -5,19 +5,25 @@
   </head>
   <body>
     <a-scene>
-        
+       
 <a-assets>
 <img id="sky" src="assets/background.jpg" alt="">
-<img id="feathers" src="assets/bluefeathertexture.jpeg" alt="">
+
 
 <a-asset-item id="myModel" src="assets/Trees.obj" alt=""></a-asset-item>
 <a-asset-item id="myBird" src="assets/birds.obj" alt=""></a-asset-item>
+<a-asset-item id="alienplant-obj" src="assets/Alien Plant.obj"></a-asset-item>
+
+
+
+
 
 
 </a-assets>
  <a-obj-model src="#myModel" color="green" scale="0.5"></a-obj-model>
-      <a-obj-model src="#myGrass" color="green"></a-obj-model>
-      <a-obj-model src="#myBird" color=" position="-3 4 -4.4" scale="0.05 0.05 0.05" rotation="0 90 0"></a-obj-model>
+      <a-obj-model src="#myBird" color="blue" position="-3 4 -4.4" scale="0.05 0.05 0.05" rotation="0 90 0"></a-obj-model>
+      <a-obj-model  src="#alienplant-obj" color="green" position="0 0 -5" scale="0.025 0.025 0.025" ></a-obj-model>
+
 
       <a-sky src="#sky"></a-sky>
     </a-scene>
